@@ -1,4 +1,4 @@
-
+import style from 'styled-components'
 import './App.css';
 
 function App() {
