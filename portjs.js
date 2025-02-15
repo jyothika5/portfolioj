@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
 
-        // If no section is active, set Home as default
+     
         if (!activeSet) {
             navLinks.forEach((link) => link.classList.remove("active"));
             document.querySelector('.navbar a[href="#home"]').classList.add("active");
