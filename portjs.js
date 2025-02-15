@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    // Listen for scroll event
+    
     window.addEventListener("scroll", activateLink);
 
     // Add click event to navbar links
