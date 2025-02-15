@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     window.addEventListener("scroll", activateLink);
 
-    // Add click event to navbar links
+
     navLinks.forEach((link) => {
         link.addEventListener("click", function () {
             navLinks.forEach((l) => l.classList.remove("active"));
