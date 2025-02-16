@@ -216,30 +216,31 @@ span{
 .portfolio h2{
     margin-bottom: 4rem;
 }
-.portfolio-c{
+.port-c{
     display: grid;
     grid-template-columns:repeat(3,1fr);
     gap: 2rem;
     align-items:center;
 }
-.portfolio-c .portfolio-b{
+.port-c .port-b{
     position: relative;
     overflow: hidden;
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--bg-color);
     display: flex;
 }
-.portfolio-b img{
-    
+.port-b img{
+    height: 100%;
     width: 100%;
     transition: .5s ease;
     opacity:0.7;
+    object-fit: cover;
 }
-.portfolio-b:hover img{
+.port-b:hover img{
     transform: scale(1.1);
     opacity:1;
 }
-.portfolio-b .portfolio-l{
+.port-b .portfolio-l{
     position: absolute;
     bottom:0;
     left:0;
@@ -253,7 +254,7 @@ span{
     transform: translateY(100%);
     transition: .5s ease;
 }
-.portfolio-b:hover .portfolio-l{
+.port-b:hover .portfolio-l{
     transform: translateY(0);
 }
 .portfolio-l h4{
