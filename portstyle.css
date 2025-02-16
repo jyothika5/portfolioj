@@ -179,11 +179,38 @@ span{
 .services h2{
     margin-bottom: 5rem ;
 }
-.service{
+.service-c{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
     flex-wrap:wrap;
 }
-.service 
+.service-c .service-b{
+    padding:3rem 2rem 4rem ;
+    background: var(--snd-bg-color);
+    border-radius: 2rem;
+    flex: 1 1 30rem;
+    text-align:center;
+    border: .2rem solid var(--bg-color);
+    transition: .5sec,ease;
+}
+.service-c .service-b:hover{
+    border-color:var(--main-color);
+    transform: scale(1.02);
+}
+.service-b i {
+    font-size: 7rem;
+    color: var(--main-color);
+}
+.service-b h3{
+    font-size: 2.6rem;
+}
+.service-b p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+
+
+
