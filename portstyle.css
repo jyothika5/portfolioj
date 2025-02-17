@@ -278,5 +278,38 @@ span{
     font-size: 2.5rem;
     color: var(--snd-bg-color);
 }
-
+.contact h2{
+    margin-bottom: 3rem;
+}
+.contact form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.contact form .i-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact form .i-box input,
+.contact form textarea{
+    width: 100%;
+    padding:  1.5rem;
+    margin: .7rem 0;
+    background: var(--snd-bg-color);
+    border-radius:.8rem;
+    color:var(--text-color);
+    font-size:1.6rem;
+}
+.contact form .i-box input{
+    width:49%;   
+}
+.contact form textarea{
+    resize:none;
+}
+.contact form .butn{
+    margin-top: 2rem;
+    cursor:pointer;
+}
 

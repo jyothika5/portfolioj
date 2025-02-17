@@ -39,6 +39,5 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    // Set Home active on page load
     activateLink();
 });
