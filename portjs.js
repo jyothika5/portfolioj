@@ -28,10 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    
     window.addEventListener("scroll", activateLink);
-
-
     navLinks.forEach((link) => {
         link.addEventListener("click", function () {
             navLinks.forEach((l) => l.classList.remove("active"));
@@ -46,10 +43,8 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener('DOMContentLoaded', function () {
     // Select the inner container for profiles
     const profileContainer = document.querySelector('.profiles-container');
-    // Get all the original profile cards
     const profile = Array.from(profileContainer.querySelectorAll('.platform'));
   
-    // Clone each profile card to ensure a seamless loop
     profile.forEach(profile => {
       const clone = profile.cloneNode(true);
       profileContainer.appendChild(clone);
@@ -62,7 +57,6 @@ document.addEventListener('DOMContentLoaded', function () {
   
   let menuIcon=document.querySelector('#menu-icon');
   let navbar =document.querySelector('.navbar');
-
   menuIcon.onclick=()=>{
     menuIcon.classList.toggle('fa-xmark');
     navbar.classList.toggle('active');
