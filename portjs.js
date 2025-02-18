@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Select the inner container for profiles
     const profileContainer = document.querySelector('.profiles-container');
     // Get all the original profile cards
-    const profiles = Array.from(profileContainer.querySelectorAll('.platform'));
+    const profile = Array.from(profileContainer.querySelectorAll('.platform'));
   
     // Clone each profile card to ensure a seamless loop
     profile.forEach(profile => {
