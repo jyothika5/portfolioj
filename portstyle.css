@@ -447,3 +447,62 @@ span{
         padding: 2rem 3%;
     }
 }
+@media (max-width: 768px){
+    #menu-btn{
+        display: block;
+    }
+    .home{
+        flex-direction: column;
+        
+    }
+    .home-c h3{
+        font-size: 2.6rem;
+    }
+    .home-c h1{
+        font-size: 4.5rem;
+    }
+    .home-c{
+        order:2;
+    }
+    .himg img{
+        width: 90vw;
+        margin-top: 4rem;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .a-img img{
+        width:90vw;
+        margin-top: 4rem;
+    }
+    .services h2{
+        margin-bottom: 3rem;
+    }
+    .portfolio h2{
+        margin-bottom: 3rem;
+    }
+    .port-c{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width: 617px){
+    .port-c{
+        grid-template-columns: 1fr;
+    }
+    .himg img{
+       width:80vw;
+       margin-top:8rem; 
+    }
+    .a-img img{
+        width:100vw;
+        margin-top:8rem;
+    }   
+}
+@media (max-width: 450px){
+    html{
+        font-size: 50%;
+    }
+    .contact form .i-box input{
+        width:100%;
+    }
+}
