@@ -41,3 +41,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
     activateLink();
 });
+document.addEventListener('DOMContentLoaded', function () {
+    // Select the inner container for profiles
+    const profileContainer = document.querySelector('.profiles-container');
+    // Get all the original profile cards
+    const profiles = Array.from(profileContainer.querySelectorAll('.platform'));
+  
+    // Clone each profile card to ensure a seamless loop
+    profile.forEach(profile => {
+      const clone = profile.cloneNode(true);
+      profileContainer.appendChild(clone);
+    });
+  
+    // Add class to start the marquee animation
+    profileContainer.classList.add('in-view');
+  });
