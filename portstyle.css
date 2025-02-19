@@ -237,12 +237,10 @@ span{
     box-shadow: 1px 1px 40px rgb(142, 8, 251);
   }
   
-  /* Optional: Improve the headings inside the platform */
   .platform h4 {
     margin: 10px 0;
   }
   
-  /* ---------- Marquee Keyframes ---------- */
   @keyframes marquee {
     0% {
       transform: translateX(0);
