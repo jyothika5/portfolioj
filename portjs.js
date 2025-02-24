@@ -41,7 +41,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    // Select the inner container for profiles
     const profileContainer = document.querySelector('.profiles-container');
     const profile = Array.from(profileContainer.querySelectorAll('.platform'));
   

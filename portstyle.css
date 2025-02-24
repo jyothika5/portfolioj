@@ -355,7 +355,7 @@ span{
     color: var(--snd-bg-color);
 }
 .contact h2{
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 .contact form{
     max-width: 70rem;
@@ -374,7 +374,7 @@ span{
     padding:  1.5rem;
     margin: .7rem 0;
     background: var(--snd-bg-color);
-    border-radius:.8rem;
+    border-radius:.9rem;
     color:var(--text-color);
     font-size:1.6rem;
 }
