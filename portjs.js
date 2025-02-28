@@ -48,8 +48,6 @@ document.addEventListener('DOMContentLoaded', function () {
       const clone = profile.cloneNode(true);
       profileContainer.appendChild(clone);
     });
-  
-    // Add class to start the marquee animation
     profileContainer.classList.add('in-view');
   });
 
