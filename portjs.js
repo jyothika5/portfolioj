@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const navLinks = document.querySelectorAll(".navbar a");
     function activateLink() {
         let scrollY = window.scrollY;
-        let activeSet = true;
+        let activeSet = false;
 
         sections.forEach((section) => {
             let sectionHeight = section.offsetHeight;
